@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: grey;
+}
+.a{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.bt1 button{
+    background-color: #FF7A50;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+}
+.a2 p{
+    font-size: 18px;
+    
+}
+.a2{
+    display: flex;
+    gap: 50px;
+}
+.a21{
+    position: relative;
+}
+.a211{
+    position: absolute;
+    width: 32px;
+    height: 30px;
+    
+}
+.a212{
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    width: 20px;
+    height: 20px;
+
+}
